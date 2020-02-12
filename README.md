@@ -1,7 +1,7 @@
 # In-Class Programming: D3 Line Chart
 In this activity, you are going to create a line-chart using D3.  Please publish to github pages and post the link here.
 
-GITHUB_PAGES_LINK
+https://github.com/amshaw39/D3LineChart
 
 ## Setup
 1. Clone this repository to your local machine. E.g., in your terminal / command prompt `CD` to where you want this the folder for this activity to be. Then run `git clone <YOUR_REPO_URL>`
