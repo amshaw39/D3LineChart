@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>In-Class Programming: D3 Line Chart</title>
+
+	<link rel="stylesheet" type="text/css" href="linechart.css">
+</head>
+<body>
+	<h1>In-Class Programming: D3 Line Chart</h1>
+
+
+	<!-- Load the d3.js library( version 5 minified) -->
+	<script src="d3.v4.js"></script>
+
+	<!-- Load the line.js file -->
+	<script src="linechart.js"></script>
+
+<svg var svg = d3.select('body')
+  .append('svg')
+    .attr('width' , width)
+    .attr('height', height)
+    .style('background', '#efefef');
+
+<g var chartGroup = svg
+  .append('g')
+    .attr('transform','translate(' + margin.left +',' + margin.top + ')'); </g>
+
+    </svg>
+
+</body>
+</html>

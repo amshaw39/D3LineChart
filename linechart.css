@@ -1,0 +1,15 @@
+line{
+	stroke:black;
+	stroke-width:2px;
+  fill: none;
+}
+
+chartGroup.append('path')
+  .attr('d', line(data))
+  .attr('class', 'dataLine');
+  .dataLine{
+	stroke: #0000BB;
+	stroke-width: 1px;
+	fill: none;
+}
+
